@@ -1,0 +1,33 @@
+.mentions{
+    color:#C22828;
+    position: relative;
+    display: inline-block;
+}
+
+main{
+    width: 900px;
+    margin: auto;
+}
+
+.legales{
+    color:#FBFDFE;
+    position: absolute;
+    top: 150px;  
+}
+.mentions_legales{
+    position: relative;
+    font-size: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mention1{
+    color: black;
+    text-align: center;
+}
+.texte_mentions1{
+    color: black;
+    text-align: justify;
+    white-space: pre-line;
+    line-height: 2;
+}
+

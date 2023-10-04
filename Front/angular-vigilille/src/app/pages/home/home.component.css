@@ -1,3 +1,26 @@
-p {
-    color: black;
+/************************************/
+/**text_index**/
+main{
+    width: 900px;
+    margin: auto;
+}
+
+.text_accueil{
+    font-size: 20px;
+    text-align: justify;
+    color:black;
+    
+}
+
+
+/*vert 184c46; blanc fbfdfe */
+
+.Vigilille{
+    color:#c22828;
+    font-size: 22px;
+}
+
+.middle{
+    text-align: center;
+    margin: auto;
 }
