@@ -12,6 +12,7 @@ import { HeadComponent } from './commons/head/head.component';
 import { FooterComponent } from './commons/footer/footer.component';
 import { UrbanismeComponent } from './pages/urbanisme/urbanisme.component';
 import { EntraideComponent } from './pages/entraide/entraide.component';
+import { MentionsComponent } from './pages/mentions/mentions.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { EntraideComponent } from './pages/entraide/entraide.component';
     HeadComponent,
     FooterComponent,
     UrbanismeComponent,
-    EntraideComponent
+    EntraideComponent,
+    MentionsComponent
   ],
   imports: [
     BrowserModule,
