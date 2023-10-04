@@ -1,0 +1,63 @@
+/* Dans home.component.css */
+
+header {
+    /* Utilisez une image de fond à 100% de la largeur et 100% de la hauteur */
+    background-image: url(../../../assets/lille.png);
+    background-size: cover; /* Ajuste la taille pour couvrir complètement la zone */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center center; /* Centre l'image horizontalement et verticalement */
+    height: 100vh; /* Assure que la hauteur de l'élément est égale à 100% de la hauteur de la fenêtre */
+    margin: 0; /* Supprime la marge par défaut du body */
+    padding: 0; /* Supprime le rembourrage par défaut du body */
+    position: relative; /* Position relative pour positionner les boutons de manière absolue */
+  }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative; /* Position relative pour positionner les boutons de manière absolue */
+}
+
+.menu-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.bouton_menu {
+    height: 60px;
+    width: 250px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #184C46;
+    margin: 10px;
+    font-size: 25px;
+    color: #184C46;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bouton_menu:hover {
+    color: #C22828;
+    border-color: #C22828;
+}
+
+.vigi {
+    color: #C22828;
+    position: absolute;
+    display: inline-block;
+}
+
+.lille {
+    color: #FBFDFE;
+    position: absolute;
+    top: 150px;
+}
+
+.texte_vigille {
+    position: relative;
+    font-size: 250px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
