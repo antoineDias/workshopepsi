@@ -22,7 +22,6 @@ public class Request {
             name = "article_categorie",
             joinColumns = @JoinColumn(name = "article_id"),
             inverseJoinColumns = @JoinColumn(name = "categorie_id"))
-    private List<Categorie> categories;
     private String titre;
     private String corps;
     private LocalDate date_ecriture;
