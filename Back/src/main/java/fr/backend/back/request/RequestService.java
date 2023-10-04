@@ -65,7 +65,6 @@ public class RequestService {
         Request requestActual = requestRepository.findById(id).orElseThrow(() -> new RuntimeException("request not found for id: " + id));
         requestActual.setTitre(request.getTitre() == null ? requestActual.getTitre() : request.getTitre());
         requestActual.setCorps(request.getCorps() == null ? requestActual.getCorps() : request.getCorps());
-        requestActual.setCategories(request.getCategories() == null ? requestActual.getCategories() : request.getCategories());
         requestActual.setDate_modif(request.getDate_modif() == null ? requestActual.getDate_modif() : request.getDate_modif());
         return requestRepository.save(requestActual);
     }
